@@ -1,0 +1,336 @@
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+
+# Core framework for UI
+streamlit==1.37.1
+
+# LangChain core packages (required for text splitters and document loaders)
+langchain-core==0.3.55
+langchain-community==0.3.16
+langchain-text-splitters==0.3.5
+
+# Vector database and embeddings
+langchain_chroma==0.2.2
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document processing (for PyPDFLoader and TextLoader)
+pypdf>=3.17.0
+
+# Performance optimization (required by sentence-transformers and chromadb)
+numpy>=1.24.0
+
+
+

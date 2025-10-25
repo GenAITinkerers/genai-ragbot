@@ -34,6 +34,7 @@ def ingest_documents():
         st.error(f"Error initializing embedding model: {e}")
         return False
 
+    # Load documents from DATA_DIRECTORY
     st.info(f"Loading documents from: {DATA_DIRECTORY}")
     documents = []
     try:
