@@ -1,32 +1,36 @@
-# Use an official Python runtime as a parent image
 FROM python:3.11-slim
 
-# Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV LANG=C.UTF-8
 
-# Set work directory
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
+# Install system dependencies, then remove build tools to reduce image size
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get purge -y --auto-remove build-essential
 
-# Copy requirements.txt
 COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt \
+    && rm -rf /root/.cache/pip
 
-# Install Python dependencies
-RUN pip install -r requirements.txt
+COPY rag-test.py .
+COPY data_source ./data_source
 
-# Copy the rest of the application code
-COPY . .
+# Create /app/today directory with secure permissions
+RUN mkdir -p /app/today && chmod -R 777 /app/today
 
-# Expose Streamlit default port
+# Create a non-root user and switch to it
+RUN useradd --create-home appuser
+USER appuser
+
 EXPOSE 8501
 
-# Set Streamlit to run in headless mode
 ENV STREAMLIT_SERVER_HEADLESS=true
 
-# Run Streamlit app
-CMD ["streamlit", "run", "rag-test.py"]
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+  CMD curl --fail http://localhost:8501/_stcore/health || exit 1
+
+CMD ["streamlit", "run", "rag-test.py", "--server.address=0.0.0.0"]
